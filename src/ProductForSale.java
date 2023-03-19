@@ -11,4 +11,6 @@ public abstract class ProductForSale {
     public double getPrice(int qty){
         return (price * qty);
     }
+
+    public abstract void showDetails();
 }
