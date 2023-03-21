@@ -6,6 +6,7 @@ public class Books extends ProductForSale{
 
     @Override
     public void showDetails() {
-        System.out.println("This book is of " + type +"type.");
+        System.out.println("This book is of " + type +" type and has a price of " + price);
+        System.out.println(description);
     }
 }
